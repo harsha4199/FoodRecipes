@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".fragments.SignIn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:background="@drawable/editext_back"
+            android:inputType="textEmailAddress"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_marginHorizontal="25dp"
+            android:textStyle="bold"
+            android:id="@+id/email"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:background="@drawable/editext_back"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="25dp"
+            android:textStyle="bold"
+            android:id="@+id/password"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="25dp"
+            android:textColor="#fff"
+            android:background="#673AB7"
+            android:textStyle="bold"
+            android:id="@+id/signIn"
+        android:gravity="center" />
+    </LinearLayout>
+
+</RelativeLayout>

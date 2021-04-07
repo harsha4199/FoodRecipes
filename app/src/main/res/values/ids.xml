@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="CategoryThumb" type="id" />
+    <item name="categoryName" type="id" />
+    <item name="mealThumb" type="id" />
+    <item name="mealName" type="id" />
+    <item name="categoryThumb" type="id" />
+    <item name="tabLayout" type="id" />
+    <item name="appbar" type="id" />
+    <item name="toolbar" type="id" />
+    <item name="viewPager" type="id" />
+    <item name="love" type="id" />
+</resources>

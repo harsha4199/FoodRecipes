@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".fragments.AuthOptions">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_marginHorizontal="25dp"
+            android:textColor="#fff"
+            android:background="#673AB7"
+            android:textStyle="bold"
+            android:id="@+id/signIn"
+            android:gravity="center" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:background="#673AB7"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:id="@+id/signUp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the Food Recipe app"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp" />
+
+</RelativeLayout>
